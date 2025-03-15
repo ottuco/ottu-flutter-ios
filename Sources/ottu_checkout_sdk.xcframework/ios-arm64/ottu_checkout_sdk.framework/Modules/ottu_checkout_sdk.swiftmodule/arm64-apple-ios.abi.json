@@ -34468,6 +34468,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 9,
+      "value": "\"General\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Helpers\/Endpoints.swift",
       "kind": "StringLiteral",
       "offset": 187,
