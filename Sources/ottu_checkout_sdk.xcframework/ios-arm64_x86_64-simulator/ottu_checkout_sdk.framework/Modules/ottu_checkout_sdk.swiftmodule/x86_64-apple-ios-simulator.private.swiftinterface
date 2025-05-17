@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ottu_checkout_sdk
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name ottu_checkout_sdk
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
 import CoreText
@@ -198,9 +198,9 @@ public struct PaymentOptionsDisplaySettings : Swift.Equatable {
     }
   }
   public let mode: ottu_checkout_sdk.PaymentOptionsDisplaySettings.PaymentOptionsDisplayMode
-  public let visibleItemsCount: Swift.Int
+  public let visibleItemsCount: Swift.UInt
   public let defaultSelectedPgCode: Swift.String?
-  public init(mode: ottu_checkout_sdk.PaymentOptionsDisplaySettings.PaymentOptionsDisplayMode = .bottomSheet, visibleItemsCount: Swift.Int = 5, defaultSelectedPgCode: Swift.String? = nil)
+  public init(mode: ottu_checkout_sdk.PaymentOptionsDisplaySettings.PaymentOptionsDisplayMode = .bottomSheet, visibleItemsCount: Swift.UInt = 5, defaultSelectedPgCode: Swift.String? = nil)
   public static func == (a: ottu_checkout_sdk.PaymentOptionsDisplaySettings, b: ottu_checkout_sdk.PaymentOptionsDisplaySettings) -> Swift.Bool
 }
 final public class URLKnocker {
@@ -433,7 +433,7 @@ public class ButtonComponent {
   @objc deinit
 }
 final public class Checkout {
-  public init(formsOfPayments: [ottu_checkout_sdk.FormOfPayment] = FormOfPayment.allCases, theme: ottu_checkout_sdk.CheckoutTheme = CheckoutTheme(), displaySettings: ottu_checkout_sdk.PaymentOptionsDisplaySettings = PaymentOptionsDisplaySettings(), sessionId: Swift.String, merchantId: Swift.String, apiKey: Swift.String, setupPreload: ottu_checkout_sdk.TransactionDetails? = nil, delegate: any ottu_checkout_sdk.OttuDelegate)
+  public init(formsOfPayments: [ottu_checkout_sdk.FormOfPayment] = FormOfPayment.allCases, theme: ottu_checkout_sdk.CheckoutTheme = CheckoutTheme(), displaySettings: ottu_checkout_sdk.PaymentOptionsDisplaySettings = PaymentOptionsDisplaySettings(), sessionId: Swift.String, merchantId: Swift.String, apiKey: Swift.String, setupPreload: ottu_checkout_sdk.TransactionDetails? = nil, delegate: any ottu_checkout_sdk.OttuDelegate) throws
   final public func paymentViewController() -> UIKit.UIViewController?
   @objc deinit
 }
@@ -864,13 +864,8 @@ public struct RemoteIcons : Swift.Decodable {
 public struct PaymentViewModel {
   public var selectPaymentMethodIsHidden: Swift.Bool
   public var paymentDetailsIsHidden: Swift.Bool
-  public var cvvCodeIsHidden: Swift.Bool
   public var payButtonIsHidden: Swift.Bool
   public var successMessageIsHidden: Swift.Bool
-}
-public struct CVVCodeViewModel {
-  public let placeholder: Swift.String
-  public let cvv: Swift.String
 }
 public struct PhoneNumberViewModel {
   public let screenTitle: Swift.String
@@ -1156,6 +1151,17 @@ extension ottu_checkout_sdk.HTTPClient {
   @discardableResult
   public func request(method: ottu_checkout_sdk.HTTPMethod, with url: Foundation.URL, headers: [Swift.String : Swift.String]?, completion: @escaping (Self.Result) -> Swift.Void) -> any ottu_checkout_sdk.HTTPClientTask
 }
+public enum CheckoutInitializationError : Swift.Error, Foundation.LocalizedError {
+  case invalidVisibleItemsCount
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: ottu_checkout_sdk.CheckoutInitializationError, b: ottu_checkout_sdk.CheckoutInitializationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension ottu_checkout_sdk.RemoteCard {
   public var card: ottu_checkout_sdk.Card {
     get throws
@@ -1179,6 +1185,8 @@ public class CheckoutTheme {
   public var dataLabel: ottu_checkout_sdk.LabelComponent
   public var dataValue: ottu_checkout_sdk.LabelComponent
   public var showPaymentDetails: Swift.Bool
+  public var usualPymentItemBorderColor: UIKit.UIColor
+  public var selectedPaymentItemBorderColor: UIKit.UIColor
   public init()
   @objc deinit
 }
@@ -1239,3 +1247,5 @@ extension ottu_checkout_sdk.FailedCheck : Swift.Hashable {}
 extension ottu_checkout_sdk.HTTPMethod : Swift.Equatable {}
 extension ottu_checkout_sdk.HTTPMethod : Swift.Hashable {}
 extension ottu_checkout_sdk.HTTPMethod : Swift.RawRepresentable {}
+extension ottu_checkout_sdk.CheckoutInitializationError : Swift.Equatable {}
+extension ottu_checkout_sdk.CheckoutInitializationError : Swift.Hashable {}
