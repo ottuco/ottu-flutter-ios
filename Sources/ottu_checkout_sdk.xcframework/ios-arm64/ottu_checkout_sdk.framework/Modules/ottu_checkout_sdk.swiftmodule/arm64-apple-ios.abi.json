@@ -9675,6 +9675,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ottu_checkout_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -30891,352 +30901,6 @@
         "kind": "TypeDecl",
         "name": "PaymentViewModel",
         "printedName": "PaymentViewModel",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "selectPaymentMethodIsHidden",
-            "printedName": "selectPaymentMethodIsHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvp",
-            "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvg",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvs",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvs",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvM",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV06selectD14MethodIsHiddenSbvM",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "paymentDetailsIsHidden",
-            "printedName": "paymentDetailsIsHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvp",
-            "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvg",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvs",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvs",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvM",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22paymentDetailsIsHiddenSbvM",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "payButtonIsHidden",
-            "printedName": "payButtonIsHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvp",
-            "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvg",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvs",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvs",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvM",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV17payButtonIsHiddenSbvM",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "successMessageIsHidden",
-            "printedName": "successMessageIsHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvp",
-            "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvg",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvs",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvs",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvM",
-                "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV22successMessageIsHiddenSbvM",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
         "declKind": "Struct",
         "usr": "s:17ottu_checkout_sdk16PaymentViewModelV",
         "mangledName": "$s17ottu_checkout_sdk16PaymentViewModelV",
@@ -31295,6 +30959,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ottu_checkout_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ottu_checkout_sdk",
         "declAttributes": [
@@ -33036,125 +32710,6 @@
         "declKind": "Struct",
         "usr": "s:17ottu_checkout_sdk23PaymentDetailsViewModelV",
         "mangledName": "$s17ottu_checkout_sdk23PaymentDetailsViewModelV",
-        "moduleName": "ottu_checkout_sdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MessageViewModel",
-        "printedName": "MessageViewModel",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isHidden",
-            "printedName": "isHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16MessageViewModelV8isHiddenSbvp",
-            "mangledName": "$s17ottu_checkout_sdk16MessageViewModelV8isHiddenSbvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16MessageViewModelV8isHiddenSbvg",
-                "mangledName": "$s17ottu_checkout_sdk16MessageViewModelV8isHiddenSbvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk16MessageViewModelV7messageSSvp",
-            "mangledName": "$s17ottu_checkout_sdk16MessageViewModelV7messageSSvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk16MessageViewModelV7messageSSvg",
-                "mangledName": "$s17ottu_checkout_sdk16MessageViewModelV7messageSSvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:17ottu_checkout_sdk16MessageViewModelV",
-        "mangledName": "$s17ottu_checkout_sdk16MessageViewModelV",
         "moduleName": "ottu_checkout_sdk",
         "declAttributes": [
           "AccessControl",
@@ -43646,8 +43201,8 @@
           },
           {
             "kind": "Var",
-            "name": "usualPymentItemBorderColor",
-            "printedName": "usualPymentItemBorderColor",
+            "name": "paymentItemBorderColor",
+            "printedName": "paymentItemBorderColor",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -43657,8 +43212,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvp",
-            "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvp",
+            "usr": "s:17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvp",
+            "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvp",
             "moduleName": "ottu_checkout_sdk",
             "declAttributes": [
               "HasInitialValue",
@@ -43680,8 +43235,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvg",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvg",
+                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvg",
+                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvg",
                 "moduleName": "ottu_checkout_sdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -43704,8 +43259,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvs",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvs",
+                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvs",
+                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvs",
                 "moduleName": "ottu_checkout_sdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -43722,94 +43277,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvM",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC26usualPymentItemBorderColorSo7UIColorCvM",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selectedPaymentItemBorderColor",
-            "printedName": "selectedPaymentItemBorderColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvp",
-            "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvp",
-            "moduleName": "ottu_checkout_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvg",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvg",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvs",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvs",
-                "moduleName": "ottu_checkout_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvM",
-                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC30selectedPaymentItemBorderColorSo7UIColorCvM",
+                "usr": "s:17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvM",
+                "mangledName": "$s17ottu_checkout_sdk13CheckoutThemeC22paymentItemBorderColorSo7UIColorCvM",
                 "moduleName": "ottu_checkout_sdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -46145,9 +45614,51 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 14,
+      "value": "\"successfully\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 9,
+      "value": "\"General\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 21,
+      "value": "\"noPaymentsAvailable\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 9,
+      "value": "\"General\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/GeneralLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ListPaymentMethodsPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4068,
+      "offset": 4108,
       "length": 27,
       "value": "\"com.ottu.sharedStateQueue\""
     },
@@ -46180,74 +45691,11 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SuccessMessage\/SuccessMessageController.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 14,
-      "value": "\"successfully\""
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SuccessMessage\/SuccessMessageController.swift",
-      "kind": "StringLiteral",
-      "offset": 261,
-      "length": 9,
-      "value": "\"General\""
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SuccessMessage\/SuccessMessageController.swift",
-      "kind": "StringLiteral",
-      "offset": 353,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SuccessMessage\/SuccessMessageController.swift",
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SuccessMessage\/MessageController.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 359,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1844,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1890,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1943,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2015,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2061,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentTamaraMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2114,
-      "length": 2,
-      "value": "16"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/SecurityLocalizedString.swift",
@@ -46348,11 +45796,60 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1085,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1184,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1256,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1302,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1355,
+      "length": 2,
+      "value": "16"
+    },
+    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/CVVCardCellController.swift",
       "kind": "BooleanLiteral",
       "offset": 835,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/CVVCardCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Core\/WalletWithOTPCodeCore.swift",
@@ -47244,48 +46741,6 @@
       "value": "[(\"SAR\", \"saudi_riyal\"), (\"AED\", \"UAE-dirham\")]"
     },
     {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1941,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1994,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2066,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2112,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMultiiconsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2165,
-      "length": 2,
-      "value": "16"
-    },
-    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListCardCell.swift",
       "kind": "BooleanLiteral",
       "offset": 397,
@@ -47475,11 +46930,39 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/ListPaymentMethodsLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 37,
+      "value": "\"list_payment_credit_card_expires_on\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/ListPaymentMethodsLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1264,
+      "length": 20,
+      "value": "\"ListPaymentMethods\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/ListPaymentMethodsLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/MultiIconsCellController.swift",
       "kind": "BooleanLiteral",
       "offset": 665,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/MultiIconsCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SelectPaymentMethod\/List\/ShowMoreCellController.swift",
@@ -47494,6 +46977,13 @@
       "offset": 270,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SelectPaymentMethod\/List\/ShowMoreCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/NewCardLocalizedString.swift",
@@ -47764,7 +47254,7 @@
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/ListPaymentMethodsViewController.swift",
       "kind": "Array",
-      "offset": 430,
+      "offset": 439,
       "length": 2,
       "value": "[]"
     },
@@ -47774,6 +47264,13 @@
       "offset": 598,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/RegularPaymentCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 630,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Core\/Cards\/TokenizedPayCore.swift",
@@ -48632,35 +48129,91 @@
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 191,
+      "offset": 184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 236,
+      "offset": 222,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 276,
-      "length": 5,
-      "value": "false"
+      "offset": 255,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 322,
+      "offset": 286,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/PaymentViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 22,
+      "value": "\"flex_pay_tabby_title\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 6,
+      "value": "\"Flex\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 24,
+      "value": "\"flex_pay_not_available\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 6,
+      "value": "\"Flex\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Translations\/FlexLocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/CVVCodeViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 142,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/CustomCheckbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 274,
       "length": 5,
       "value": "false"
     },
@@ -48833,13 +48386,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/Payment\/ViewModels\/MessageViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/CommonViews\/TextFields\/CVVFormatedTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
@@ -48849,35 +48395,35 @@
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ViewModels\/ListPaymentCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 225,
+      "offset": 247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ViewModels\/ListPaymentCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 259,
+      "offset": 281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ViewModels\/ListPaymentCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 296,
+      "offset": 318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ViewModels\/ListPaymentCellViewModel.swift",
       "kind": "Array",
-      "offset": 332,
+      "offset": 354,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Presentation\/ListPayment\/ViewModels\/ListPaymentCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 365,
+      "offset": 387,
       "length": 5,
       "value": "false"
     },
@@ -48894,6 +48440,13 @@
       "offset": 718,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/TamaraCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 750,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/IOSSecuritySuite\/DebuggerChecker.swift",
@@ -49197,48 +48750,6 @@
       "value": "\"dladdr\""
     },
     {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1642,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1688,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1741,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1813,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1859,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/ListPaymentMethod\/CellContollers\/Cells\/ListPaymentMethodCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1912,
-      "length": 2,
-      "value": "16"
-    },
-    {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/Ottu API\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 155,
@@ -49297,14 +48808,14 @@
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SelectPaymentMethod\/List\/PaymentMethodsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 693,
+      "offset": 697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vi\/Downloads\/AS-Projects\/ottu-ios-checkout\/ottu_checkout_sdk\/UI\/Payment\/SelectPaymentMethod\/List\/PaymentMethodsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 888,
       "length": 1,
       "value": "5"
     },
@@ -49416,385 +48927,427 @@
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1192,
+      "length": 25,
+      "value": "\"CellFeeDescriptionColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1356,
+      "length": 19,
+      "value": "\"CellFeeValueColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 19,
+      "value": "\"CellSubtitleColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1666,
+      "length": 16,
+      "value": "\"CellTitleColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1847,
+      "length": 32,
+      "value": "\"CustomCheckboxOuterCircleColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
       "length": 15,
       "value": "\"IconTintColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 2156,
       "length": 15,
       "value": "\"OTPErrorColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 2322,
       "length": 25,
       "value": "\"OTPFieldBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1638,
+      "offset": 2476,
       "length": 14,
       "value": "\"OTPTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1785,
+      "offset": 2623,
       "length": 16,
       "value": "\"OttuErrorColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 2808,
       "length": 34,
       "value": "\"PayButtonApplePayBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2163,
+      "offset": 3001,
       "length": 29,
       "value": "\"PayButtonApplePayTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2345,
+      "offset": 3183,
       "length": 26,
       "value": "\"PayButtonBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2544,
+      "offset": 3382,
       "length": 36,
       "value": "\"PayButtonBrandedPayBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 3583,
       "length": 32,
       "value": "\"PayButtonBrandedPayBorderColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2946,
+      "offset": 3784,
       "length": 34,
       "value": "\"PayButtonDisabledBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3139,
+      "offset": 3977,
       "length": 29,
       "value": "\"PayButtonDisabledTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 4149,
       "length": 21,
       "value": "\"PayButtonTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 4355,
       "length": 42,
       "value": "\"PaymentDetailsSectionTitleLabelTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3730,
+      "offset": 4568,
       "length": 35,
       "value": "\"PaymentDetailsTitleLabelTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3936,
+      "offset": 4774,
       "length": 35,
       "value": "\"PaymentDetailsValueLabelTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4140,
+      "offset": 4958,
+      "length": 24,
+      "value": "\"PaymentItemBorderColor\""
+    },
+    {
+      "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5151,
       "length": 34,
       "value": "\"PaymentMethodTitleLabelTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4335,
+      "offset": 5346,
       "length": 30,
       "value": "\"PhoneTextEditBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4532,
+      "offset": 5543,
       "length": 33,
       "value": "\"ResendCodeButtonBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4720,
+      "offset": 5731,
       "length": 27,
       "value": "\"ResendCodeButtonTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4902,
+      "offset": 5913,
       "length": 27,
       "value": "\"SaveSTCPayBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 6093,
       "length": 26,
       "value": "\"SecondaryBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5281,
+      "offset": 6292,
       "length": 36,
       "value": "\"SelectPaymentButtonBackgroundColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5498,
+      "offset": 6509,
       "length": 40,
       "value": "\"SelectPaymentButtonCardNumberTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5723,
+      "offset": 6734,
       "length": 42,
       "value": "\"SelectPaymentButtonChangeMethodTextColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5928,
+      "offset": 6939,
       "length": 31,
       "value": "\"SelectPaymentButtonTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6132,
+      "offset": 7143,
       "length": 36,
       "value": "\"SelectPaymentModalFeeSubtitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6335,
+      "offset": 7346,
       "length": 33,
       "value": "\"SelectPaymentModalFeeTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6535,
+      "offset": 7546,
       "length": 33,
       "value": "\"SelectPaymentModalSubtitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6729,
+      "offset": 7740,
       "length": 30,
       "value": "\"SelectPaymentModalTitleColor\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6988,
+      "offset": 7999,
       "length": 9,
       "value": "\"Maestro\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7115,
+      "offset": 8126,
       "length": 6,
       "value": "\"amex\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7275,
+      "offset": 8286,
       "length": 25,
       "value": "\"applepay_paybutton_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7460,
+      "offset": 8471,
       "length": 28,
       "value": "\"applepay_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7624,
+      "offset": 8635,
       "length": 15,
       "value": "\"creditCardCVV\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7761,
+      "offset": 8772,
       "length": 8,
       "value": "\"diners\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7925,
+      "offset": 8936,
       "length": 26,
       "value": "\"direct_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8077,
+      "offset": 9088,
       "length": 10,
       "value": "\"discover\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8209,
+      "offset": 9220,
       "length": 8,
       "value": "\"disket\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8333,
+      "offset": 9344,
       "length": 5,
       "value": "\"jcb\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8468,
+      "offset": 9479,
       "length": 12,
       "value": "\"mastercard\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8644,
+      "offset": 9655,
       "length": 30,
       "value": "\"mastercard_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8830,
+      "offset": 9841,
       "length": 26,
       "value": "\"ottupg_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8976,
+      "offset": 9987,
       "length": 7,
       "value": "\"rupay\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9133,
+      "offset": 10144,
       "length": 23,
       "value": "\"stcpay_paybutton_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9312,
+      "offset": 10323,
       "length": 26,
       "value": "\"stcpay_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9492,
+      "offset": 10503,
       "length": 25,
       "value": "\"tabby_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9673,
+      "offset": 10684,
       "length": 26,
       "value": "\"tamara_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9817,
+      "offset": 10828,
       "length": 6,
       "value": "\"uatp\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9943,
+      "offset": 10954,
       "length": 7,
       "value": "\"union\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10098,
+      "offset": 11109,
       "length": 22,
       "value": "\"urpay_paybutton_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10274,
+      "offset": 11285,
       "length": 25,
       "value": "\"urpay_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10417,
+      "offset": 11428,
       "length": 6,
       "value": "\"visa\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10575,
+      "offset": 11586,
       "length": 24,
       "value": "\"visa_selectmethod_icon\""
     },
     {
       "filePath": "\/Users\/vi\/Library\/Developer\/Xcode\/DerivedData\/ottu-checkout-sdk-fyujbzbaltgiytdetngxvxqveehy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ottu_checkout_sdk\/IntermediateBuildFilesPath\/ottu-checkout-sdk.build\/Release-iphoneos\/ottu_checkout_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10735,
+      "offset": 11746,
       "length": 15,
       "value": "\"wrongCardType\""
     }

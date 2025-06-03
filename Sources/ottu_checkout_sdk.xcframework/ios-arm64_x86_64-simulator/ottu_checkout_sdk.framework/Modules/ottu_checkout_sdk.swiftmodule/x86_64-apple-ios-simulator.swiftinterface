@@ -862,10 +862,6 @@ public struct RemoteIcons : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct PaymentViewModel {
-  public var selectPaymentMethodIsHidden: Swift.Bool
-  public var paymentDetailsIsHidden: Swift.Bool
-  public var payButtonIsHidden: Swift.Bool
-  public var successMessageIsHidden: Swift.Bool
 }
 public struct PhoneNumberViewModel {
   public let screenTitle: Swift.String
@@ -913,10 +909,6 @@ public struct PaymentDetailsViewModel {
   public let feeValue: Swift.String?
   public let totalTitle: Swift.String
   public let totalValue: Swift.String
-}
-public struct MessageViewModel {
-  public let isHidden: Swift.Bool
-  public let message: Swift.String
 }
 public class TextFieldComponent {
   public var label: ottu_checkout_sdk.LabelComponent
@@ -1185,8 +1177,7 @@ public class CheckoutTheme {
   public var dataLabel: ottu_checkout_sdk.LabelComponent
   public var dataValue: ottu_checkout_sdk.LabelComponent
   public var showPaymentDetails: Swift.Bool
-  public var usualPymentItemBorderColor: UIKit.UIColor
-  public var selectedPaymentItemBorderColor: UIKit.UIColor
+  public var paymentItemBorderColor: UIKit.UIColor
   public init()
   @objc deinit
 }
